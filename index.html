@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Toothibent</title>
+        <link rel="stylesheet" href="./styles.css" />
+        <link
+            href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+            rel="stylesheet" />
+        <script defer src="./main.js"></script>
+    </head>
+    <body>
+
+        <i class="iconShowMenu bx bx-menu-alt-right"></i>
+
+        <nav class="navbar">
+            <span><a href="#inicio"><strong>TOOTHIBENT</strong></a></span>
+            <ul class="navbar__menu">
+                <li><a class="link link__active" href="#inicio">Inicio</a></li>
+                <li><a class="link" href="#conocenos">Conocenos</a></li>
+                <li><a class="link" href="#servicios">Servicios</a></li>
+                <li><a class="link" href="#contactanos">Contactanos</a></li>
+                <li class="iconTheme">🌙</li>
+            </ul>
+        </nav>
+
+        <main class="contenedor__principal">
+            <section id="inicio" class="hidden">
+                <h1 class="inicio__title">
+                    Bienvenidos a <span>Toothibent</span>
+                </h1>
+                <div class="inicio__img">
+                    <img src="./assets/images/odonto (2).jpg" alt="" />
+                </div>
+            </section>
+            <section id="conocenos" class="hidden">
+                <div class="conocenos">
+                    <h2>Conocenos</h2>
+                    <h3>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing
+                        elit. Eligendi neque nam quasi repudiandae! Nemo
+                        laudantium dolores doloribus maiores explicabo iste iure
+                        totam quod incidunt. Vero aliquid eveniet doloribus sint
+                        nemo?
+                    </h3>
+                    <h4>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. Alias iure possimus sit distinctio error,
+                        voluptatem perspiciatis asperiores voluptatibus
+                        repellendus vel molestiae. Totam praesentium dolorum ea
+                        odio, quibusdam incidunt consequuntur commodi.
+                    </h4>
+                </div>
+            </section>
+            <section id="servicios" class="hidden">
+                <h2>Servicios</h2>
+                <div class="servicios">
+                    <div class="servicio">
+                        <img src="./assets/images/odonto (1).jpg" alt="" />
+                    </div>
+                    <div class="servicio">
+                        <img src="./assets/images/odonto (2).jpg" alt="" />
+                    </div>
+                    <div class="servicio">
+                        <img src="./assets/images/odonto (3).jpg" alt="" />
+                    </div>
+                </div>
+            </section>
+            <section id="contactanos" class="hidden">
+                <h2>Contactanos</h2>
+                <form class="formulario" data-netlify="true">
+                    <input
+                        type="text"
+                        placeholder="Ingresa tu nombre"
+                        name="NombreUsuario"
+                        id="NombreUsuario"
+                        required />
+                    <input
+                        type="email"
+                        placeholder="Ingresa tu correo"
+                        name="CorreoUsuario"
+                        id="CorreoUsuario"
+                        required />
+                    <input
+                        type="number"
+                        placeholder="Ingresa tu número"
+                        name="NúmeroUsuario"
+                        id="NúmeroUsuario"
+                        required />
+                    <textarea
+                        name="commentUser"
+                        id="commentUser"
+                        cols="30"
+                        rows="10"
+                        placeholder="Escribeme ..."></textarea>
+                    <button class="boton"><strong>Enviar</strong></button>
+                </form>
+            </section>
+        </main>
+    </body>
+</html>
