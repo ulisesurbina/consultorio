@@ -45,8 +45,8 @@ links.forEach((link) => {
 function closeMenu(elementHMTL) {
     elementHMTL.addEventListener("click", () => {
         navbarMenu.classList.toggle("navbar__menu--show") ? 
-        iconShowMenu.classList.add("bx-x") : 
-        iconShowMenu.classList.remove("bx-menu-alt-right");
+        iconShowMenu.classList.add("bx-x-circle") : 
+        iconShowMenu.classList.remove("bx-x-circle");
     });
 }
 
